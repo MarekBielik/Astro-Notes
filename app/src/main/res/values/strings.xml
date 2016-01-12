@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Astro Notes</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">My Trophies</string>
+    <string name="title_activity_show_current_object">ShowCurrentObject</string>
+    <string name="current_objects_title">Current Messiers</string>
+    <string name="my_objects_title">My trophies</string>
+    <string name="NETWORK_PROBLEM_IMAGE">Could not load image, no network connection.</string>
+    <string name="CURRENT_MESSIERS_NETWORK_PROBLEM">Could not load current objects, no network connection.</string>
+    <string name="CURRENT_MESSIERS_JSON_PROBLEM">Server error, you should not see this. Immediately close your eyes.</string>
+    <string name="ngcNumber">NGC / IC Number:</string>
+    <string name="typeOfMessier">Type:</string>
+    <string name="constellation">Constellation:</string>
+    <string name="apparentMagnitude">Apparent Magnitude:</string>
+    <string name="note">Note:</string>
+    <string name="DATABASE_PROBLEM">Database problem occurred.</string>
+    <string name="title_activity_show_my_trophy">ShowMyTrophyActivity</string>
+    <string name="editNoteHint">Your note</string>
+    <string name="editNoteToolbarTitle">Edit Note</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_edit">EditActivity</string>
+</resources>

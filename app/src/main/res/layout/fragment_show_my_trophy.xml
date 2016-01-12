@@ -1,0 +1,131 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.marek.astronotes.ShowCurrentObjectFragment"
+        android:id="@+id/show_current_object_fragment_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/currentMessierTitleTextView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:fitsSystemWindows="true"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:scrollbarAlwaysDrawHorizontalTrack="false" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/currentMessierImageView"
+            android:layout_below="@+id/currentMessierTitleTextView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/ngcNumberTitleTextView"
+            android:text="@string/ngcNumber"
+            android:layout_below="@+id/currentMessierImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ngcNumberTextView"
+            android:layout_below="@+id/ngcNumberTitleTextView"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/typeOfMessier"
+            android:id="@+id/typeOfMessierTitleTextView"
+            android:layout_below="@+id/ngcNumberTextView"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/typeOfMessierTextView"
+            android:layout_below="@+id/typeOfMessierTitleTextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/constellation"
+            android:id="@+id/constellationTitleTextView"
+            android:layout_below="@+id/typeOfMessierTextView"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/constellationTextView"
+            android:layout_below="@+id/constellationTitleTextView"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/apparentMagnitude"
+            android:id="@+id/apparentMagnitudeTitleTextView"
+            android:layout_below="@+id/constellationTextView"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/apparentMagnitudeTextView"
+            android:layout_below="@+id/apparentMagnitudeTitleTextView"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/note"
+            android:id="@+id/noteTitleTextView"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/apparentMagnitudeTextView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/noteTextView"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/noteTitleTextView" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_marginTop="74dp"
+            android:layout_alignTop="@+id/currentMessierImageView"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</ScrollView>

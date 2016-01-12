@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.marek.astronotes.ShowMyTrophyActivity">
+
+    <item android:id="@+id/deleteTrophy"
+        android:title=""
+        android:icon="@drawable/ic_delete_white_48dp"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/editNote"
+        android:title=""
+        android:icon="@drawable/ic_insert_comment_white_48dp"
+        app:showAsAction="ifRoom"/>
+
+</menu>
